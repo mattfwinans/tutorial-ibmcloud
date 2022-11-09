@@ -26,7 +26,7 @@
 
     - name: Extract access token
       set_fact:
-        resource_id: "crn:v1:bluemix:public:cloudantnosqldb:us-south:a/aac9c77faa19874d8a9cbef354b495fc:a9c37cf6-ecc2-4af4-a31d-db3c9c309736::"
+        resource_id: "crn:v1:bluemix:public:cloudantnosqldb:us-south:a/82515bd2928e1cd9a56fb94f170de151:7fab6be6-bf5b-4859-99ec-3fe041fd0ded::"
 
     # TODO: loop if returns more than 100 resources
     - name: Get IBM Cloud Resources
